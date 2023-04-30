@@ -1,0 +1,2 @@
+Ideas:
+- use third party static analysis tools (like lint)

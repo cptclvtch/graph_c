@@ -1,0 +1,35 @@
+- target C99, no extensions
+
+					+------- C file --------+
+- graphC file 	----+ 						+--compiler--> executable
+					+-- intermediate AST ---+
+
+- C file --preprocessor?--> syntax tree? --> graphC file
+
+- implement statements
+- variables
+	- fix types by using uints and stuff
+	- under the hood auto generated variable names (combined with optional user defined names)
+	- structs
+	- pointers
+	- 
+
+- implement operators
+
+
+- implement scopes
+
+- implement functions
+	- arguments
+	- variadic arguments
+	- return values
+
+- implement entry point
+
+- implement file format and reading it
+
+
+
+- implement c to graphc translator (written in graphc)
+
+- self-implement using c to graphc translator
